@@ -1,0 +1,42 @@
+# Terraform directories
+**/.terraform/*
+.terraform.lock.hcl
+
+# Terraform state files - NEVER commit these!
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Variable files containing secrets (critical!)
+*.tfvars
+*.tfvars.json
+!example.tfvars          # Allow example files for documentation
+
+# Sensitive files
+secrets.tf
+credentials.tf
+
+# Plan files
+*.tfplan
+plan.out
+
+# Local CLI config
+.terraformrc
+.terraform/
+ 
+# OS & Editor files
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
